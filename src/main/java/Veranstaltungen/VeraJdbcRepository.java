@@ -25,6 +25,7 @@ public class VeraJdbcRepository {
             vera.setVer_name(rs.getString("ver_name"));
             vera.setOrt(rs.getString("ort"));
             vera.setDatum(rs.getString("datum"));
+            vera.setRanking(rs.getString("rank"));
             return vera;
 
         }
@@ -36,6 +37,14 @@ public class VeraJdbcRepository {
 
     }
 
+    public List < Veranstaltung > findType(String type) {
+        return jdbcTemplate.query("SELECT * FROM VERANSTALTUNG WHERE ART =? ", new Object[] {
+                type
+        },
+                new VeranstaltungRowMapper());
+
+    }
+
     public Veranstaltung findById(long id) {
         return jdbcTemplate.queryForObject("select * from Veranstaltung where id=?", new Object[] {
                     id
@@ -43,18 +52,47 @@ public class VeraJdbcRepository {
                 new BeanPropertyRowMapper < Veranstaltung > (Veranstaltung.class));
     }
 
+
     public int deleteById(long id) {
         return jdbcTemplate.update("delete from Veranstaltung where id=?", id);
-
     }
 
     public int insert(Veranstaltung vera) {
 
-        return jdbcTemplate.update("insert into Veranstaltung (id, ver_name, ort, datum, beschreibung, art) " + "values(?,  ?, ?, ?, ?,?)",
+        return jdbcTemplate.update("insert into Veranstaltung (id, ver_name, ort, datum, beschreibung, art, rank) "
+                        + "values(?,  ?, ?, ?, ?,?, ?)",
 
-                vera.getId(), vera.getVer_name(), vera.getOrt(), vera.getDatum(), vera.getBeschreibung(), vera.getArt());
+                vera.getId(), vera.getVer_name(), vera.getOrt(), vera.getDatum(), vera.getBeschreibung(),
+                vera.getArt(), vera.getRanking());
+    }
+
+
+
+    public int voteUp(long id, String ranking) {
+
+        int tmp = Integer.parseInt(ranking);
+        tmp++;
+        String erg = String.valueOf(tmp);
+        return jdbcTemplate.update("UPDATE Veranstaltung\n" +
+                "        SET RANK = ?\n" +
+                "        WHERE ID = ?", erg, id);
 
     }
+
+
+    public int voteDown(long id, String ranking) {
+
+        int tmp = Integer.parseInt(ranking);
+        tmp--;
+        String erg = String.valueOf(tmp);
+        return jdbcTemplate.update("UPDATE Veranstaltung\n" +
+                "        SET RANK = ?\n" +
+                "        WHERE ID = ?", erg, id);
+
+    }
+
+
+
 
 
 

@@ -1,5 +1,9 @@
 package Veranstaltungen;
 
+/**
+ * logisch eigentlich
+ */
+
 public class Veranstaltung {
 
     private Long id;
@@ -9,6 +13,7 @@ public class Veranstaltung {
     private String beschreibung;
     private String art;
     private String wetter = "Kein Wetterdaten gefunden";
+    private String ranking = "0";
 
     public Veranstaltung() {
         super();
@@ -92,8 +97,18 @@ public class Veranstaltung {
         this.wetter = wetter;
     }
 
-    @Override
+    public String getRanking() {
+        return ranking;
+    }
 
+    public void setRanking(String ranking) {
+        this.ranking = ranking;
+    }
+
+
+
+    //wie bis jetzt nicht benötigt
+    @Override
     public String toString() {
 
         return String.format("Student [id=%s, name=%s, passportNumber=%s]", id, ver_name, ort, datum, beschreibung, art);

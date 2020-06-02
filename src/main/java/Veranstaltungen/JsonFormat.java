@@ -130,7 +130,4 @@ class JsonFormat
 
     }
 
-    public static void main(String[] args) {
-        getWetter("44418", "2013/4/27");
-    }
 }

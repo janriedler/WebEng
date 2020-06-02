@@ -20,6 +20,11 @@ public class AddDatabase {
     private String datum;
     private String art;
 
+    /**
+     * die add.html hat post request hier hin gesendet. Dieser beinhalten die Darten einer Vernastaltung
+     * Diese Vera. wird hier dann erstellt und dann an die DB gesendet.
+     * Anschließend wird angezeigt das alles gut ging
+     */
     @RequestMapping(method = {RequestMethod.GET, RequestMethod.POST}, value = "addVer")
     @ResponseBody
     public String getQuery (@RequestParam String name, @RequestParam String ort, @RequestParam String beschreibung,
@@ -36,14 +41,20 @@ public class AddDatabase {
                 "Die Veranstaltung wurde erfolgreich hinzugefügt";
     }
 
+    /**
+     * holt die selbstgeschrieben  VeraJdbcRepository Klasse, wodurch die dortigen Methoden für Datenbanken abfragen
+     * verwendet werden können
+     */
     @Autowired
     VeraJdbcRepository repository;
     public static void main(String[] args) {
         SpringApplication.run(Start.class, args);
     }
 
+
+    //logisch
     private void insert() {
-        Veranstaltung neu = new Veranstaltung(name, ort, datum, art, beschreibung);
+        Veranstaltung neu = new Veranstaltung(name, ort, datum, beschreibung, art);
         repository.insert(neu);
     }
 

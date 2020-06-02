@@ -1,3 +1,8 @@
+/**
+ * Die Klasse startet das Projekt (schaltet sozusagen die Listener an)
+ * Der "Listener" der die Startseite (http://localhost:8080) abfängt ist in Controller -> Main
+ */
+
 package Veranstaltungen;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;

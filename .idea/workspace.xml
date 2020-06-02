@@ -6,56 +6,42 @@
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3a912708-7066-4c66-b85d-070ee50c4bb4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/C:/temp/test.mv.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/C:/temp/test.trace.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/externalJar/json-simple-1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Veranstaltungen/Controller/AddDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Veranstaltungen/Controller/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Veranstaltungen/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Veranstaltungen/VeraJdbcRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Veranstaltungen/Veranstaltung.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Veranstaltungen/Wetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/verlist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/de/uni-passau/fim/datenbank/DemoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/guru/springframework/SpringBootMongodbApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/guru/springframework/commands/ProductForm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/guru/springframework/controllers/ProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/guru/springframework/converters/ProductFormToProduct.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/guru/springframework/converters/ProductToProductForm.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/guru/springframework/domain/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/guru/springframework/repositories/ProductRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/guru/springframework/services/ProductService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/java/guru/springframework/services/ProductServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/product/list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/product/productform.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/main/resources/templates/product/show.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../src/test/java/guru/springframework/SpringBootMongodbApplicationTests.java" beforeDir="false" />
+    <list default="true" id="3a912708-7066-4c66-b85d-070ee50c4bb4" name="Default Changelist" comment="update j4n">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_el_9_0_35.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_jasper_9_0_35.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_35.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jdt_ecj_3_18_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bootstrap_3_3_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_bootstrap_datepicker_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_webjars_jquery_1_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C:/stay/pers.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/C:/stay/pers.mv.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Veranstaltungen/Controller/Vote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C:/temp/test.mv.db" beforeDir="false" afterPath="$PROJECT_DIR$/C:/temp/test.mv.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/C:/temp/test.trace.db" beforeDir="false" afterPath="$PROJECT_DIR$/C:/temp/test.trace.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebData.iml" beforeDir="false" afterPath="$PROJECT_DIR$/WebData.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Veranstaltungen/Controller/AddDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Veranstaltungen/Controller/AddDatabase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Veranstaltungen/Controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Veranstaltungen/Controller/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Veranstaltungen/JsonFormat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Veranstaltungen/JsonFormat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Veranstaltungen/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Veranstaltungen/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Veranstaltungen/VeraJdbcRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Veranstaltungen/VeraJdbcRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Veranstaltungen/Veranstaltung.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Veranstaltungen/Veranstaltung.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Veranstaltungen/Wetter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Veranstaltungen/Wetter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/schema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/schema.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/verlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/verlist.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +59,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1cjCVOvOpxd0bOUMirk4Ts2o54A" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -88,9 +74,10 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="findjar.last.used.dir" value="$PROJECT_DIR$/jarDownload" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/de" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/externalJar/json-simple-1.1.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/Pojekt21/projekt21" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -98,6 +85,9 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/C:" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
@@ -110,13 +100,26 @@
       <recent name="$PROJECT_DIR$/src/main/java/datenbank/web" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Start">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="JsonFormat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Veranstaltungen.JsonFormat" />
+      <option name="MAIN_CLASS_NAME" value="Veranstaltungen.Wetter.JsonFormat" />
       <module name="WebData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Veranstaltungen.*" />
+          <option name="PATTERN" value="Veranstaltungen.Wetter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Veranstaltungen.Controller.Main" />
+      <module name="WebData" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Veranstaltungen.Controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,7 +132,7 @@
       <module name="WebData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Veranstaltungen.*" />
+          <option name="PATTERN" value="Veranstaltungen.Wetter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebDataApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WebData.WebDataApplication" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Veranstaltungen.Controller.Test" />
       <module name="WebData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="WebData.*" />
+          <option name="PATTERN" value="Veranstaltungen.Controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,39 +154,25 @@
       </method>
     </configuration>
     <configuration name="Wetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Veranstaltungen.Wetter" />
+      <option name="MAIN_CLASS_NAME" value="Veranstaltungen.Wetter.Wetter" />
       <module name="WebData" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Veranstaltungen.*" />
+          <option name="PATTERN" value="Veranstaltungen.Wetter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Veranstaltungen in WebData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="WebData" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Veranstaltungen.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Veranstaltungen" />
-      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Application.Start" />
         <item itemvalue="Application.Wetter" />
         <item itemvalue="Application.JsonFormat" />
-        <item itemvalue="JUnit.Veranstaltungen in WebData" />
-        <item itemvalue="Application.WebDataApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -200,6 +189,9 @@
     </task>
     <servers />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.css" />
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -214,6 +206,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="update j4n" />
+    <option name="LAST_COMMIT_MESSAGE" value="update j4n" />
   </component>
   <component name="WindowStateProjectService">
     <state x="714" y="360" width="482" height="381" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591050393529">
@@ -228,38 +222,42 @@
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="613" y="473" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1591035980414" />
-    <state x="745" y="424" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591042599838">
+    <state x="745" y="424" width="430" height="252" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1591110676793">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="745" y="424" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.25.1920.1055@0.25.1920.1055" timestamp="1591042599838" />
+    <state x="745" y="424" width="430" height="252" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.25.1920.1055@0.25.1920.1055" timestamp="1591110676793" />
     <state x="754" y="441" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1591035990073">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="754" y="441" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.25.1920.1055@0.25.1920.1055" timestamp="1591035990073" />
-    <state x="743" y="298" width="593" height="504" key="FileChooserDialogImpl" timestamp="1591079301008">
+    <state x="743" y="298" width="593" height="504" key="FileChooserDialogImpl" timestamp="1591097734308">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="743" y="298" width="593" height="504" key="FileChooserDialogImpl/0.25.1920.1055@0.25.1920.1055" timestamp="1591079301008" />
+    <state x="743" y="298" width="593" height="504" key="FileChooserDialogImpl/0.25.1920.1055@0.25.1920.1055" timestamp="1591097734308" />
     <state x="838" y="452" key="Github.ShareDialog" timestamp="1591086958375">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="838" y="452" key="Github.ShareDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1591086958375" />
-    <state width="1880" height="289" key="GridCell.Tab.0.bottom" timestamp="1591086729545">
+    <state x="625" y="255" width="659" height="590" key="Github.UntrackedFilesDialog" timestamp="1591086981804">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state width="1880" height="289" key="GridCell.Tab.0.bottom/0.25.1920.1055@0.25.1920.1055" timestamp="1591086729545" />
-    <state width="1880" height="289" key="GridCell.Tab.0.center" timestamp="1591086729545">
+    <state x="625" y="255" width="659" height="590" key="Github.UntrackedFilesDialog/0.25.1920.1055@0.25.1920.1055" timestamp="1591086981804" />
+    <state width="1880" height="289" key="GridCell.Tab.0.bottom" timestamp="1591125982086">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state width="1880" height="289" key="GridCell.Tab.0.center/0.25.1920.1055@0.25.1920.1055" timestamp="1591086729545" />
-    <state width="1880" height="289" key="GridCell.Tab.0.left" timestamp="1591086729544">
+    <state width="1880" height="289" key="GridCell.Tab.0.bottom/0.25.1920.1055@0.25.1920.1055" timestamp="1591125982086" />
+    <state width="1880" height="289" key="GridCell.Tab.0.center" timestamp="1591125982085">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state width="1880" height="289" key="GridCell.Tab.0.left/0.25.1920.1055@0.25.1920.1055" timestamp="1591086729544" />
-    <state width="1880" height="289" key="GridCell.Tab.0.right" timestamp="1591086729545">
+    <state width="1880" height="289" key="GridCell.Tab.0.center/0.25.1920.1055@0.25.1920.1055" timestamp="1591125982085" />
+    <state width="1880" height="289" key="GridCell.Tab.0.left" timestamp="1591125982085">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state width="1880" height="289" key="GridCell.Tab.0.right/0.25.1920.1055@0.25.1920.1055" timestamp="1591086729545" />
+    <state width="1880" height="289" key="GridCell.Tab.0.left/0.25.1920.1055@0.25.1920.1055" timestamp="1591125982085" />
+    <state width="1880" height="289" key="GridCell.Tab.0.right" timestamp="1591125982085">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state width="1880" height="289" key="GridCell.Tab.0.right/0.25.1920.1055@0.25.1920.1055" timestamp="1591125982085" />
     <state width="1880" height="356" key="GridCell.Tab.1.bottom" timestamp="1591055136655">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
@@ -284,6 +282,10 @@
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="494" y="111" width="1024" height="841" key="SettingsEditor/0.25.1920.1055@0.25.1920.1055" timestamp="1591079318021" />
+    <state x="555" y="288" width="800" height="524" key="Vcs.Push.Dialog.v2" timestamp="1591123953781">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="555" y="288" width="800" height="524" key="Vcs.Push.Dialog.v2/0.25.1920.1055@0.25.1920.1055" timestamp="1591123953781" />
     <state x="773" y="333" width="363" height="434" key="chooseDestDirectoryDialog" timestamp="1591035680671">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
@@ -292,14 +294,18 @@
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
     <state x="570" y="166" width="770" height="769" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.25.1920.1055@0.25.1920.1055" timestamp="1591049654127" />
-    <state x="768" y="470" width="373" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591080591232">
+    <state x="768" y="470" width="383" height="164" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591110659920">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="768" y="470" width="373" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1920.1055@0.25.1920.1055" timestamp="1591080591232" />
-    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1591037443662">
+    <state x="768" y="470" width="383" height="164" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1920.1055@0.25.1920.1055" timestamp="1591110659920" />
+    <state x="517" y="292" width="875" height="517" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1591093697607">
       <screen x="0" y="25" width="1920" height="1055" />
     </state>
-    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.25.1920.1055@0.25.1920.1055" timestamp="1591037443662" />
+    <state x="517" y="292" width="875" height="517" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.25.1920.1055@0.25.1920.1055" timestamp="1591093697607" />
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1591125468450">
+      <screen x="0" y="25" width="1920" height="1055" />
+    </state>
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.25.1920.1055@0.25.1920.1055" timestamp="1591125468450" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,10 +1,6 @@
 package Veranstaltungen;
 
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.net.URL;
-import java.net.URLConnection;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
@@ -13,12 +9,16 @@ import java.util.List;
 import java.util.Locale;
 
 public class Wetter {
+
+    /**
+     *
+     */
     static public List<Veranstaltung> calc(List<Veranstaltung> vera) throws IOException {
         for (int i = 0; i < vera.size(); i++) {
-            if (checkTime(vera.get(i).getDatum())) {
-                String id = JsonFormat.getWoeid(vera.get(i).getOrt());
-                if (!id.equals("noloc")) {
-                    vera.get(i).setWetter(JsonFormat.getWetter(id, vera.get(i).getDatum()));
+            if (checkTime(vera.get(i).getDatum())) { //wenn Zeit inner nächster Woche
+                String id = JsonFormat.getWoeid(vera.get(i).getOrt()); //mit Klasse JsonFormat wird die ID von einem Ort bestimmt
+                if (!id.equals("noloc")) { //loloc wird von JsonFormat zurückgegen wenn der Ort nicht gefunden wurde
+                    vera.get(i).setWetter(JsonFormat.getWetter(id, vera.get(i).getDatum())); //mit Klasse JsonFormat wird mittels ID und Datum das Wetter bestimmt
                 }
             }
 
@@ -26,8 +26,9 @@ public class Wetter {
         return vera;
     }
 
-    static boolean checkTime(String datum){
 
+    //prüft ob Datum innerhelb der nächten Woche liegt (Kann noch verbessert werden)
+    static boolean checkTime(String datum){
         String inline = "";
         String[] zahl = datum.split("-");
         datum = zahl[1] + "/" + zahl[2] + "/" + zahl[0];
@@ -47,7 +48,4 @@ public class Wetter {
                 );
     }
 
-    public static void main(String[] args) {
-        System.out.println(checkTime("06/03/2020"));
-    }
 }
