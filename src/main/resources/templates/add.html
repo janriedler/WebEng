@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="de" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Veranstaltung</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+</head>
+<body>
+<div class="container my-5">
+    <h3> Veranstaltung hinzufügen</h3>
+    <div class="card">
+        <div class="card-body">
+            <div class="col-md-10">
+                <form action="addVer" method="post">
+                    <div>Name: <input type="text" name="name">
+                        Ort: <input type="text" name="ort">
+                        Datum: <input type="date" name="datum"><br><br>
+                        Beschreibung: <br><textarea icols="26" rows ="10" name="beschreibung"></textarea>
+                        <label>Art:
+                            <select name="art" size="1">
+                                <option>Musik</option>
+                                <option>Fußball</option>
+                                <option>Party</option>
+                                <option>Hochzeit</option>
+                                <option>Essen</option>
+                            </select>
+                        </label>
+
+                    </div>
+                    <input type="submit" value="Veranstaltung hinzufügen">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
